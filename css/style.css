@@ -45,6 +45,18 @@ body {
   margin-left: -20px;
 }
 
+@-moz-document url-prefix() {
+  #errors {
+    width: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 8%;
+    position: absolute;
+    text-align: center;
+    margin-left: -100px;
+  }
+}
+
 input[type="submit"] {
   width: 100px;
   height: 25px;
